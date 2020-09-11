@@ -10,5 +10,5 @@ before_install:
 script:
   - npm run build
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-  - docker build -t cuizhanshan/blog_new:latest .
-  - docker push cuizhanshan/blog_new:latest
+  - docker build -t cuizhanshan1025/blog_new:latest .
+  - docker push cuizhanshan1025/blog_new:latest
